@@ -1,0 +1,2 @@
+@model List<OrderSummary>
+<h1>Your orders</h1><p>Most recent 100 orders. Timestamps are UTC.</p><table class="table"><thead><tr><th>Order</th><th>Created</th><th>Total</th></tr></thead><tbody>@foreach(var order in Model){<tr><td><a asp-action="Details" asp-route-id="@order.Id">#@order.Id</a></td><td>@order.CreatedUtc.ToString("u")</td><td>₹@order.Total.ToString("N2")</td></tr>}</tbody></table>

@@ -1,0 +1,5 @@
+PASS SQL Server 2022 syntax: seed.sql
+PASS SQL Server 2022 syntax: schema.sql
+PASS SQL Server 2022 syntax: procedures.sql
+PASS SQL Server 2022 syntax: benchmark.sql
+PASS SQL Server 2022 syntax: order-tests.sql

@@ -1,0 +1,2 @@
+@model LoginInput
+<h1>Sign in</h1><p>Use customer or admin and the password configured in your local environment.</p><form method="post" class="narrow"><div asp-validation-summary="All" class="text-danger"></div><label asp-for="Username"></label><input asp-for="Username" maxlength="80" class="form-control mb-3" autocomplete="username"/><label asp-for="Password"></label><input asp-for="Password" class="form-control mb-3" autocomplete="current-password"/><button class="btn btn-primary">Sign in</button></form>

@@ -1,0 +1,2 @@
+@model Product
+<h1>@Model.Name</h1><p>@Model.Description</p><p>₹@Model.Price.ToString("N2") · @Model.Stock in stock</p><button class="btn btn-primary cart-add" data-id="@Model.Id" disabled="@(Model.Stock==0)">Add to cart</button><a class="btn btn-link" href="/">Back to catalog</a>

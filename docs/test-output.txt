@@ -1,0 +1,9 @@
+  Determining projects to restore...
+  Restored /workspace/scratch/431c86819958/StorefrontCMS/src/StorefrontCMS/StorefrontCMS.csproj (in 8.74 sec).
+  Restored /workspace/scratch/431c86819958/StorefrontCMS/tests/StorefrontCMS.Tests/StorefrontCMS.Tests.csproj (in 8.74 sec).
+  StorefrontCMS -> /workspace/scratch/431c86819958/StorefrontCMS/src/StorefrontCMS/bin/Release/net10.0/StorefrontCMS.dll
+  StorefrontCMS.Tests -> /workspace/scratch/431c86819958/StorefrontCMS/tests/StorefrontCMS.Tests/bin/Release/net10.0/StorefrontCMS.Tests.dll
+Test run for /workspace/scratch/431c86819958/StorefrontCMS/tests/StorefrontCMS.Tests/bin/Release/net10.0/StorefrontCMS.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    14, Skipped:     0, Total:    14, Duration: 87 ms - StorefrontCMS.Tests.dll (net10.0)

@@ -1,0 +1,2 @@
+@model CmsEdit
+<h1>Save content draft</h1><p>Use homepage-banner or promo-strip for homepage content. Other slugs appear at /Catalog/Page?slug=your-slug.</p><form method="post" class="narrow"><div asp-validation-summary="All" class="text-danger"></div><label asp-for="Slug"></label><input asp-for="Slug" class="form-control mb-3"/><label asp-for="Title"></label><input asp-for="Title" class="form-control mb-3"/><label asp-for="Body"></label><textarea asp-for="Body" rows="8" class="form-control mb-3"></textarea><button class="btn btn-primary">Save draft</button></form>

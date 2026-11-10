@@ -1,0 +1,2 @@
+@model CheckoutInput
+<h1>Mock checkout</h1><p>No money is charged. Inventory and prices are checked again when you place the order.</p><form method="post"><div asp-validation-summary="All" class="text-danger"></div><input asp-for="RequestId" type="hidden"/><label class="d-block mb-3"><input asp-for="Confirm"/> I confirm the simulated payment.</label><button class="btn btn-primary">Place order</button><a class="btn btn-link" href="/Cart">Review cart</a></form>

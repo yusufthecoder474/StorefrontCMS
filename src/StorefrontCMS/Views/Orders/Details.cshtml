@@ -1,0 +1,2 @@
+@model OrderDetail
+<h1>Order #@Model.Order.Id</h1><p>Mock payment accepted · @Model.Order.CreatedUtc.ToString("u")</p><table class="table"><thead><tr><th>Product</th><th>Quantity</th><th>Unit price</th></tr></thead><tbody>@foreach(var line in Model.Lines){<tr><td>@line.Name</td><td>@line.Quantity</td><td>₹@line.UnitPrice.ToString("N2")</td></tr>}</tbody></table><p>Total: ₹@Model.Order.Total.ToString("N2")</p>
